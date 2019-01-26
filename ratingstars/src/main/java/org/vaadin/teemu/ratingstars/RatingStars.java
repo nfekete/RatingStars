@@ -17,7 +17,7 @@ public class RatingStars extends AbstractField<Double> implements Comparable<Rat
 
         @Override
         public void valueChanged(double newValue) {
-            setValue(newValue);
+            setValue(newValue, true);
         }
     };
 
